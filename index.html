@@ -1,13 +1,203 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Curriculum Vitae Igor CAPATINA</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="/instruments/favicon-32x32.png" type="image/gif" sizes="32x32">
+	<title>Curriculum Vitae HTML</title>
 </head>
-	<body>
 
-     		 <h1>Igor CAPATINA</h1>
-     		 <p>Email: capatina7802@gmail.com</p>
-		 <p>Phone Number:+373 xx xxx xxx </p>
+<body>
+	<header>
+		<h1>
+			Curriculum Vitae
+		</h1>
+		<nav>
+			<ul>
+				<li>
+					<a href="#aboutMe">About me</a>
+				</li>
+				<li>
+					<a href="#mySkills">My Skills</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+				<li>
+					<a href="#get_in_touch">Get in Touch</a>
+				</li>
 
-	</body>
+			</ul>
+		</nav>
+		<!--Section about me-->
+
+		<section id="aboutMe">
+
+			<img src="/instruments/igor.png" alt="profile picture" width="200">
+			<h2>
+				Hi I'm Igor Capatina
+			</h2>
+			<p>
+				An energetic and imaginative young web developer who is able to
+				<br>
+				work alongside other talented IT professionals in creating websites
+				<br>
+				to the very highest standards.I have a high awareness of
+				<br>
+				industry issues and trends, particularly in regard to accessibility,
+				<br>
+				usability, emerging technologies, and open source CMS.I'm an
+				<br>
+				ambitious type who wants to get noticed, and has the drive and
+				<br>
+				massive energy needed to really make a difference to a project.
+				<br>
+				Right now I'm looking for an entry level position with an exciting
+				<br>
+				company that wants to attract talented people.
+			</p> <br>
+		</section>
+	</header>
+	<hr>
+
+	<main>
+		<!--Section my skills-->
+		<section id="mySkills">
+			<h2>
+				My graduations:
+			</h2>
+			<ul>
+				<li>
+					<a href="https://lirps.md/" target="_blank">Republican High School with a Sports Profile</a>
+				</li>
+				<li>
+					<a href="http://www.academy.police.md/" target="_blank">Stefan cel Mare Academy of the Ministry of
+						Internal
+						Affairs</a>
+				</li>
+				<li>
+					<a href="https://ciccc.ca/" target="_blank">Cornerstone International Community College of
+						Canada</a><strong>(Enrolled)</strong>
+				</li>
+			</ul>
+			<h2>My Skills
+			</h2>
+
+			<ol type="I">
+				<li>
+					Web design
+				</li>
+				<li>
+					Front end coding
+				</li>
+				<li>
+					Fundamentals Linux
+				</li>
+				<li>
+					Trouble shooting
+				</li>
+			</ol>
+			<h2>
+				Key Competencies
+			</h2>
+
+			<details open>
+				<summary>
+					Key 1
+				</summary>
+				<p>Providing innovative new ideas and solutions to problems.</p>
+			</details>
+
+			<details open>
+				<summary>
+					Key 2
+				</summary>
+				<p>Learning new technologies and keeping abreast of markets developments.</p>
+			</details>
+
+			<details open>
+				<summary>
+					Key 3
+				</summary>
+				<p>Having creativity and imagination.</p>
+			</details>
+
+			<details open>
+				<summary>
+					Key 4
+				</summary>
+				<p>Adaptable and able to pick up new techniques.</p>
+			</details>
+
+			<h2>Check here some of my Projects</h2>
+			<a href="https://github.com/Igorcapatina?tab=repositories">
+				<p>
+					My GitHub profile
+				</p>
+				<img src="/instruments/github.png" alt="github logo" width="60">
+			</a>
+		</section>
+                                          <!--Section contact me-->
+		<section id="contact">
+			<h2>Contact me</h2>
+			<form action="mailto:capatina7802@gmail.com" method="POST">
+				<div>
+					<label for="firstName">First Name:</label>
+					<input type="text" id="firstName" name="fname" required placeholder="*Enter your first name...">
+
+					<label for="lastName">Last Name:</label>
+					<input type="text" id="lastName" name="lname" required placeholder="*Enter your last name...">
+				</div>
+				<br>
+				<div>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" placeholder="*Enter your email..." required>
+				</div>
+				<br>
+				<div>
+					<label for="phoneNumber">Phone Number:</label>
+					<input type="number" name="phone" id="phoneNumber" required
+						placeholder="*">
+				</div>
+				<br>
+				<div>
+					<label for="clientMessage">Enter your message:</label>
+					<textarea name="clientMessage" id="clientMessage" cols="30" rows="10" required
+						placeholder="Please leave me details about your Job..."></textarea>
+				</div>
+				<br>
+				<button type="submit">Send Request</button>
+
+			</form>
+
+		</section>
+
+		<section id="get_in_touch">
+			<h2>
+				Get in Touch
+			</h2>
+			<a href="https://www.facebook.com/igor.capatina.39" target="_blank">
+				<p>Facebook:</p><img src="/instruments/facebook.png" alt="facebook logo" width="60">
+			</a>
+
+			<a href="https://www.linkedin.com/in/igor-capatina-503b6a168/">
+				<p>Linkedin:</p><img src="/instruments/linkedIn.png" alt="linkedIn logo" width="60">
+			</a>
+
+			<a href="mailto:capatina7802@gmail.com">
+				<p>Gmail:</p><img src="/instruments/gmail.png" alt="gmail logo" width="60">
+			</a>
+		</section>
+	</main>
+	<hr>
+
+	<footer>
+		<div align="center">
+			Copyright &copy; 2021, Igor Capatina
+		</div>
+	</footer>
+</body>
+
 </html>
