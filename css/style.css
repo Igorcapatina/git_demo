@@ -1,3 +1,277 @@
-h1 {
+/******************************      header & about me section     ********************************/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+span:hover {
     color: blue;
+    text-decoration: underline;
+}
+
+li,
+a {
+    font-family: "Montserrat"sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: opx 20px;
+}
+
+
+.nav_links li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+h1:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#hone {
+    margin-right: auto;
+}
+
+
+p {
+    text-align: left;
+}
+
+
+li {
+    text-align: left;
+    padding: opx, 20px, 0px, 20px;
+}
+
+.profile_pic {
+    width: 10%;
+    float: left;
+    padding-top: 1%;
+    padding-left: 20%;
+}
+
+#description_text {
+    padding-left: 5%;
+    text-align: left;
+}
+
+
+.description_profile {
+    padding: 200px, 10px, 200px, 10px;
+}
+
+h2 {
+    padding-left: 30%;
+}
+
+#aboutMe {
+    padding-bottom: 200px;
+}
+
+
+p {
+    padding-right: 30%;
+    padding-left: 30%;
+
+}
+
+/************************************************   my skilss section   ******************************************/
+
+#mySkills {
+    text-align: left;
+}
+
+#graduation {
+    padding-left: 35%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+}
+
+#graduation_picture {
+    float: left;
+    width: 12%;
+    padding-left: 19.5%;
+}
+
+
+h3 {
+    padding-bottom: 25px;
+}
+
+#skills_picture {
+    padding-left: 20%;
+    width: 10%;
+    float: left;
+}
+
+#my_skills_div {
+
+    padding-bottom: 5%;
+    padding-left: 35%;
+    text-align: left;
+}
+
+#key_picture {
+    width: 10%;
+    padding-left: 20%;
+    float: left;
+}
+
+#key_text {
+    text-align: left;
+    padding-bottom: 3%;
+
+}
+
+#key_header {
+    padding-left: 35%;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+}
+
+#details_box {
+    padding-left: 5%;
+    display: inline-block;
+}
+
+/************************************************ git section  *****************************************/
+
+#git_logo {
+    width: 10%;
+    float: left;
+    padding-left: 20%;
+    margin-right: 5%;
+
+}
+
+#git_profile {
+    padding-bottom: 15%;
+}
+
+#git_text_head {
+    padding-left: 35%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.git_button {
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    font-size: larger;
+}
+
+
+/***********************************    contact me section    ************************************/
+
+#contact_h {
+    text-align: center;
+}
+
+.contact_form {
+    text-align: center;
+
+}
+
+.fname {
+    align-items: flex-end;
+    padding-bottom: 1%;
+}
+
+.lname {
+    padding-bottom: 1%;
+}
+
+.email {
+    padding-bottom: 1%;
+}
+
+.phonenumber {
+    padding-bottom: 1%;
+}
+
+textarea {
+    vertical-align: text-top;
+}
+
+.rate {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#submit {
+
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+.contact_filedset {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/**************************************     get in touch       *******************************************/
+
+#get_in_touch {
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 3%;
+}
+
+.get_in_touch_f {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*****************************  footer     ******************************/
+.copyR {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.copyR {
+    text-align: center;
 }
