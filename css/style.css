@@ -40,6 +40,7 @@ header {
 .nav_links li {
     display: inline-block;
     padding: opx 20px;
+    margin: 0 6px;
 }
 
 
@@ -182,20 +183,8 @@ summary {
 }
 
 #git_text_head {
-    padding-left: 35%;
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
-.git_button {
-    width: 300px;
-    height: 100px;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    font-family: 'Indie Flower', cursive, sans-serif;
-    font-size: larger;
+    padding-left: 10%;
+    text-align: left;
 }
 
 
