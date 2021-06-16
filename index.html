@@ -6,16 +6,22 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="/instruments/favicon-32x32.png" type="image/gif" sizes="32x32">
+	<link rel="stylesheet" href="css/style.css">
 	<title>Curriculum Vitae HTML</title>
 </head>
 
 <body>
 	<header>
-		<h1>
-			Curriculum Vitae
-		</h1>
+		<div id="hone">
+			<a href="https://en.wikipedia.org/wiki/Curriculum_vitae" target="_blank">
+				<h1>
+					Curriculum Vitae
+				</h1>
+			</a>
+		</div>
+
 		<nav>
-			<ul>
+			<ul class="nav_links">
 				<li>
 					<a href="#aboutMe">About me</a>
 				</li>
@@ -28,62 +34,62 @@
 				<li>
 					<a href="#get_in_touch">Get in Touch</a>
 				</li>
-
 			</ul>
 		</nav>
-		<!--Section about me-->
-
-		<section id="aboutMe">
-
-			<img src="/instruments/igor.png" alt="profile picture" width="200">
-			<h2>
-				Hi I'm Igor Capatina
-			</h2>
-			<p>
-				An energetic and imaginative young web developer who is able to
-				<br>
-				work alongside other talented IT professionals in creating websites
-				<br>
-				to the very highest standards.I have a high awareness of
-				<br>
-				industry issues and trends, particularly in regard to accessibility,
-				<br>
-				usability, emerging technologies, and open source CMS.I'm an
-				<br>
-				ambitious type who wants to get noticed, and has the drive and
-				<br>
-				massive energy needed to really make a difference to a project.
-				<br>
-				Right now I'm looking for an entry level position with an exciting
-				<br>
-				company that wants to attract talented people.
-			</p> <br>
-		</section>
 	</header>
-	<hr>
 
+	<!--Section about me-->
 	<main>
+		<section id="aboutMe">
+			<div id="profilePic">
+				<img src="/instruments/igor.png" alt="profile picture" class="profile_pic">
+			</div>
+			<div id="description_text">
+				<h2>
+					Hi I'm Igor Capatina
+				</h2>
+				<p>
+					An energetic and imaginative young web developer who is able to
+					work alongside other talented IT professionals in creating websites
+					to the very highest standards.I have a high awareness of
+					industry issues and trends, particularly in regard to accessibility,
+					usability, emerging technologies, and open source CMS.I'm an
+					ambitious type who wants to get noticed, and has the drive and
+					massive energy needed to really make a difference to a project.
+					Right now I'm looking for an entry level position with an exciting
+					company that wants to attract talented people.
+				</p>
+			</div>
+		</section>
+
 		<!--Section my skills-->
-		<section id="mySkills">
-			<h2>
+
+		<!--Graduation-->
+		<img src="instruments/graduation_pic.jpeg" alt="graduation picture" id="graduation_picture">
+		<div id="graduation">
+			<h3>
 				My graduations:
-			</h2>
-			<ul>
-				<li>
-					<a href="https://lirps.md/" target="_blank">Republican High School with a Sports Profile</a>
-				</li>
-				<li>
-					<a href="http://www.academy.police.md/" target="_blank">Stefan cel Mare Academy of the Ministry of
-						Internal
-						Affairs</a>
-				</li>
-				<li>
-					<a href="https://ciccc.ca/" target="_blank">Cornerstone International Community College of
-						Canada</a><strong>(Enrolled)</strong>
-				</li>
-			</ul>
-			<h2>My Skills
-			</h2>
+			</h3>
+			<div>
+				<a href="https://lirps.md/" target="_blank">
+					<span>Republican High School with a Sports Profile</span></a>
+			</div>
+			<div>
+				<a href="http://www.academy.police.md/" target="_blank">
+					<span>Stefan cel Mare Academy of the Ministry of Internal Affairs</span></a>
+			</div>
+			<div>
+				<a href="https://ciccc.ca/" target="_blank">
+					<span>Cornerstone International Community College of
+						Canada<strong>(Enrolled)</strong></span></a>
+			</div>
+		</div>
+		<!--Skills-->
+		<img src="instruments/skills.png" alt="mechanical wheel" id="skills_picture">
+
+		<div id="my_skills_div">
+			<h3>My Skills
+			</h3>
 
 			<ol type="I">
 				<li>
@@ -99,102 +105,131 @@
 					Trouble shooting
 				</li>
 			</ol>
-			<h2>
-				Key Competencies
-			</h2>
+		</div>
+		<!--Key Competence-->
 
-			<details open>
-				<summary>
-					Key 1
-				</summary>
-				<p>Providing innovative new ideas and solutions to problems.</p>
-			</details>
+		<div id="key_text">
+			<img src="instruments/key_knowledge.jpg" alt="key knowledge picture" id="key_picture">
+			<div id="key_header">
+				<h3>
+					Key Competencies
+				</h3>
+			</div>
+			<div id="details_box">
+				<details open>
+					<summary>
+						Key 1
+					</summary>
+					<p>Providing innovative new ideas and solutions to problems.</p>
+				</details>
 
-			<details open>
-				<summary>
-					Key 2
-				</summary>
-				<p>Learning new technologies and keeping abreast of markets developments.</p>
-			</details>
+				<details open>
+					<summary>
+						Key 2
+					</summary>
+					<p>Learning new technologies and keeping abreast of markets developments.</p>
+				</details>
 
-			<details open>
-				<summary>
-					Key 3
-				</summary>
-				<p>Having creativity and imagination.</p>
-			</details>
+				<details open>
+					<summary>
+						Key 3
+					</summary>
+					<p>Having creativity and imagination.</p>
+				</details>
 
-			<details open>
-				<summary>
-					Key 4
-				</summary>
-				<p>Adaptable and able to pick up new techniques.</p>
-			</details>
+				<details open>
+					<summary>
+						Key 4
+					</summary>
+					<p>Adaptable and able to pick up new techniques.</p>
+				</details>
+			</div>
+		</div>
+		<!--git projects-->
 
-			<h2>Check here some of my Projects</h2>
-			<a href="https://github.com/Igorcapatina?tab=repositories">
-				<p>
-					My GitHub profile
-				</p>
-				<img src="/instruments/github.png" alt="github logo" width="60">
+		<div id="git_profile">
+			<img src="/instruments/github.png" alt="github logo" id="git_logo">
+			<div id="git_text_head">
+				<h3>Check here some of my Projects</h3>
+			
+
+			<a href="https://github.com/Igorcapatina" target="_blank">Click here Please &#xae;
 			</a>
-		</section>
-                                          <!--Section contact me-->
+		  </div>
+		</div>
+		<!--Section contact me-->
 		<section id="contact">
-			<h2>Contact me</h2>
-			<form action="mailto:capatina7802@gmail.com" method="POST">
-				<div>
-					<label for="firstName">First Name:</label>
-					<input type="text" id="firstName" name="fname" required placeholder="*Enter your first name...">
+			<h3 id="contact_h">Contact me</h3>
+			<div class="contact_form">
+				<fieldset class="contact_filedset">
+					<form action="mailto:capatina7802@gmail.com" method="POST">
+						<div class="fname">
+							<label for="firstName">First Name:</label>
+							<input type="text" id="firstName" name="fname" required
+								placeholder="*Enter your first name...">
+						</div>
+						<div class="lname">
+							<label for="lastName">Last Name:</label>
+							<input type="text" id="lastName" name="lname" required
+								placeholder="*Enter your last name...">
+						</div>
+						<div class="email">
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" placeholder="*Enter your email..." required>
+						</div>
+						<div class="phonenumber">
+							<label for="phoneNumber">Phone Number:</label>
+							<input type="number" name="phone" id="phoneNumber" required placeholder="*">
+						</div>
+						<div class="textarea">
+							<label for="clientMessage">Enter your message:</label>
+							<textarea name="clientMessage" id="clientMessage" cols="30" rows="10" required
+								placeholder="Please leave me details about your Job..."></textarea>
+						</div>
 
-					<label for="lastName">Last Name:</label>
-					<input type="text" id="lastName" name="lname" required placeholder="*Enter your last name...">
-				</div>
-				<br>
-				<div>
-					<label for="email">Email:</label>
-					<input type="email" id="email" name="email" placeholder="*Enter your email..." required>
-				</div>
-				<br>
-				<div>
-					<label for="phoneNumber">Phone Number:</label>
-					<input type="number" name="phone" id="phoneNumber" required
-						placeholder="*">
-				</div>
-				<br>
-				<div>
-					<label for="clientMessage">Enter your message:</label>
-					<textarea name="clientMessage" id="clientMessage" cols="30" rows="10" required
-						placeholder="Please leave me details about your Job..."></textarea>
-				</div>
-				<br>
-				<button type="submit">Send Request</button>
+						<div class="rate">
+							<label for="star-select">Rate my work:</label>
 
-			</form>
-
+							<select name="stars" id="star-select">
+								<option value="">--Rate Level--</option>
+								<option value="1"> &#9733;&#10032;&#10032;&#10032;&#10032; </option>
+								<option value="2"> &#9733;&#9733;&#10032;&#10032;&#10032; </option>
+								<option value="3"> &#9733;&#9733;&#9733;&#10032;&#10032; </option>
+								<option value="4"> &#9733;&#9733;&#9733;&#9733;&#10032; </option>
+								<option value="5"> &#9733;&#9733;&#9733;&#9733;&#9733; </option>
+							</select>
+						</div>
+						<button type="submit" id="submit">Send Request</button>
+					</form>
+				</fieldset>
+			</div>
 		</section>
-
+		<!--Get in Touch-->
 		<section id="get_in_touch">
-			<h2>
+			<h3>
 				Get in Touch
-			</h2>
-			<a href="https://www.facebook.com/igor.capatina.39" target="_blank">
-				<p>Facebook:</p><img src="/instruments/facebook.png" alt="facebook logo" width="60">
-			</a>
+			</h3>
 
-			<a href="https://www.linkedin.com/in/igor-capatina-503b6a168/">
-				<p>Linkedin:</p><img src="/instruments/linkedIn.png" alt="linkedIn logo" width="60">
-			</a>
+			<fieldset class="get_in_touch_f">
+				<legend>Social Media</legend>
+				<a href="https://www.facebook.com/igor.capatina.39" target="_blank">
+					<img src="/instruments/facebook.png" alt="facebook logo" width="60">
+				</a>
 
-			<a href="mailto:capatina7802@gmail.com">
-				<p>Gmail:</p><img src="/instruments/gmail.png" alt="gmail logo" width="60">
-			</a>
+				<a href="https://www.linkedin.com/in/igor-capatina-503b6a168/" target="_blank">
+					<img src="/instruments/linkedIn.png" alt="linkedIn logo" width="60">
+				</a>
+
+				<a href="mailto:capatina7802@gmail.com">
+					<img src="/instruments/gmail.png" alt="gmail logo" width="60">
+				</a>
+			</fieldset>
 		</section>
 	</main>
 	<hr>
 
 	<footer>
-		<div align="center">
+		<div class="copyR">
 			Copyright &copy; 2021, Igor Capatina
 		</div>
 	</footer>
